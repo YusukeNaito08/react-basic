@@ -4,7 +4,9 @@ import {TodoList} from "./TodoList";
 
 function App() {
 
-  const [todos, setTodos] = useState(["todo1", "todo2"])
+  const [todos, setTodos] = useState([
+    {id: 1, name: "Todo1", completed: false},
+  ])
 
 return (
   <>
